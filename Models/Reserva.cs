@@ -13,6 +13,7 @@ namespace DesafioProjetoHospedagem.Models
             DiasReservados = diasReservados;
         }
 
+
         public void CadastrarHospedes(List<Pessoa> hospedes)
         {
             // TODO: Verificar se a capacidade é maior ou igual ao número de hóspedes sendo recebido
@@ -28,10 +29,12 @@ namespace DesafioProjetoHospedagem.Models
             }
         }
 
+
         public void CadastrarSuite(Suite suite)
         {
             Suite = suite;
         }
+
 
         public int ObterQuantidadeHospedes()
         {
@@ -39,6 +42,7 @@ namespace DesafioProjetoHospedagem.Models
             // *IMPLEMENTE AQUI*
             return 0;
         }
+
 
         public decimal CalcularValorDiaria()
         {
